@@ -26,9 +26,9 @@ node_modules
 ```sh
 # Criando o .prettierrc.json
 {
-  "trailingComma": "es5",
+  "trailingComma": "all",
   "tabWidth": 2,
-  "semi": false,
+  "semi": true,
   "singleQuote": true
 }
 ```
@@ -178,7 +178,7 @@ npm install --save-dev eslint
 		"curly": ["error", "multi-line", "consistent"],
 		"dot-location": ["error", "property"],
 		"handle-callback-err": "off",
-		"indent": ["error", "tab"],
+		"indent": ["error", 2],
 		"keyword-spacing": "error",
 		"max-nested-callbacks": ["error", { "max": 4 }],
 		"max-statements-per-line": ["error", { "max": 2 }],
