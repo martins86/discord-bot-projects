@@ -155,30 +155,60 @@ npm install standard-version --save-dev
 
 ```sh
 # Instalando o eslint no projeto.
-npm init @eslint/config
+npm install --save-dev eslint
 ```
 
 ```sh
-# Configuração usada
-√ How would you like to use ESLint? · style
-√ What type of modules does your project use? · commonjs
-√ Which framework does your project use? · none
-√ Does your project use TypeScript? · No
-√ Where does your code run? · browser
-√ How would you like to define a style for your project? · guide
-√ Which style guide do you want to follow? · standard
-√ What format do you want your config file to be in? · JSON
-
-Checking peerDependencies of eslint-config-standard@latest
-Local ESLint installation not found.
-The config that you ve selected requires the following dependencies:
-
-eslint-config-standard@latest eslint@^8.0.1 eslint-plugin-import@^2.25.2 eslint-plugin-n@^15.0.0 eslint-plugin-promise@^6.0.0
-
-√ Would you like to install them now? · Yes
-√ Which package manager do you want to use? · npm
-
-Installing eslint-config-standard@latest, eslint@^8.0.1, eslint-plugin-import@^2.25.2, eslint-plugin-n@^15.0.0, eslint-plugin-promise@^6.0.0
+# Configuração usada no .eslintrc.json
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2021
+	},
+	"rules": {
+		"arrow-spacing": ["warn", { "before": true, "after": true }],
+		"brace-style": ["error", "stroustrup", { "allowSingleLine": true }],
+		"comma-dangle": ["error", "always-multiline"],
+		"comma-spacing": "error",
+		"comma-style": "error",
+		"curly": ["error", "multi-line", "consistent"],
+		"dot-location": ["error", "property"],
+		"handle-callback-err": "off",
+		"indent": ["error", "tab"],
+		"keyword-spacing": "error",
+		"max-nested-callbacks": ["error", { "max": 4 }],
+		"max-statements-per-line": ["error", { "max": 2 }],
+		"no-console": "off",
+		"no-empty-function": "error",
+		"no-floating-decimal": "error",
+		"no-inline-comments": "error",
+		"no-lonely-if": "error",
+		"no-multi-spaces": "error",
+		"no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1, "maxBOF": 0 }],
+		"no-shadow": ["error", { "allow": ["err", "resolve", "reject"] }],
+		"no-trailing-spaces": ["error"],
+		"no-var": "error",
+		"object-curly-spacing": ["error", "always"],
+		"prefer-const": "error",
+		"quotes": ["error", "single"],
+		"semi": ["error", "always"],
+		"space-before-blocks": "error",
+		"space-before-function-paren": ["error", {
+			"anonymous": "never",
+			"named": "never",
+			"asyncArrow": "always"
+		}],
+		"space-in-parens": "error",
+		"space-infix-ops": "error",
+		"space-unary-ops": "error",
+		"spaced-comment": "error",
+		"yoda": "error"
+	}
+}
 ```
 
 <br>
