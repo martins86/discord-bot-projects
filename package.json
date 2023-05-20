@@ -6,10 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
-  "license": "ISC",
-  "keywords": [],
-  "author": "Thiago Martins de Freitas",
   "license": "MIT",
+  "keywords": ["bot", "discord"],
+  "author": "Thiago Martins de Freitas",
   "email": "martins86@gmail.com",
   "url": "https://www.linkedin.com/in/tmfreitas/",
   "homepage": "https://martins86.github.io/discord-bot-projects/",
