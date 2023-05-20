@@ -4,6 +4,7 @@
   "description": "Bot no Discord para suporte a projetos",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "start": "node index.js",
     "prettier-write": "npx prettier --write --ignore-unknown .",
     "prettier-check": "npx prettier --check .",
@@ -28,8 +29,17 @@
     "email": "martins86@gmail.com"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "2.8.8"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
