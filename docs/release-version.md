@@ -7,6 +7,11 @@
 npm run release -- --release-as 1.1.0
 ```
 
+```sh
+# subindo tag release.
+git push --follow-tags origin release
+```
+
 <br>
 
 ---
