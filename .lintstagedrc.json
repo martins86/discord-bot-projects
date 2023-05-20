@@ -1,7 +1,7 @@
 {
-    "*.{js,md,json}": [
-      "npm run prettier-write",
-      "git add",
-      "npm run prettier-check"
-    ]
-  }
+  "*.{js,md,json}": [
+    "npm run prettier-write",
+    "git add",
+    "npm run prettier-check"
+  ]
+}
