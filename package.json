@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-projects",
+  "version": "0.0.1",
+  "description": "Bot no Discord para suporte a projetos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "keywords": [],
+  "author": "Thiago Martins de Freitas",
+  "license": "MIT",
+  "email": "martins86@gmail.com",
+  "url": "https://www.linkedin.com/in/tmfreitas/",
+  "homepage": "https://martins86.github.io/discord-bot-projects/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martins86/discord-bot-projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/martins86/discord-bot-projects/issues",
+    "email": "martins86@gmail.com"
+  }
+}
