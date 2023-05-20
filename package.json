@@ -4,10 +4,15 @@
   "description": "Bot no Discord para suporte a projetos",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "prettier-write": "npx prettier --write --ignore-unknown .",
+    "prettier-check": "npx prettier --check ."
   },
   "license": "MIT",
-  "keywords": ["bot", "discord"],
+  "keywords": [
+    "bot",
+    "discord"
+  ],
   "author": "Thiago Martins de Freitas",
   "email": "martins86@gmail.com",
   "url": "https://www.linkedin.com/in/tmfreitas/",
@@ -19,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/martins86/discord-bot-projects/issues",
     "email": "martins86@gmail.com"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
   }
 }
