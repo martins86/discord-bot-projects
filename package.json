@@ -1,6 +1,6 @@
 {
   "name": "discord-bot-projects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bot no Discord para suporte a projetos",
   "main": "index.js",
   "scripts": {

@@ -23,7 +23,7 @@
 
 ## Exemplo do Fluxo
 
-<img src="prints/git-flow-app-mfe-portal.png" alt="Git Flow">
+<img src="prints/git-flow.png" alt="Git Flow">
 
 <br>
 <br>
