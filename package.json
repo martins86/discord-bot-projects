@@ -1,10 +1,11 @@
 {
   "name": "discord-bot-projects",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Bot no Discord para suporte a projetos",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "deploy": "node deploy-commands.js",
     "pre-commit": "npx --no-install lint-staged",
     "prettier-write": "npx prettier --write --ignore-unknown .",
     "prettier-check": "npx prettier --check .",
